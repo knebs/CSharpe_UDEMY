@@ -26,21 +26,32 @@ namespace Calculator
             double zweiterSummandAlsZahl = Convert.ToDouble(zweiterSummand);
 
             //Berechnung ausführen
-            double summe = ersterSummandAlsZahl + zweiterSummandAlsZahl;
+            double summe = Addiere(ersterSummandAlsZahl, zweiterSummandAlsZahl);
 
             //Ausgabe
-            Console.WriteLine("Die Summe ist " + summe);
+            Console.WriteLine("Die Summe ist: {0}", summe);
             WarteAufBenutzereingabe();
 
-          
-
         }
+
+        static double Addiere(double ersterSummandAlsZahl, double zweiterSummandAlsZahl)
+        {
+
+            double ergebnis = ersterSummandAlsZahl + zweiterSummandAlsZahl;
+            return ergebnis;
+        }
+
         static void WarteAufBenutzereingabe()
         {
             Console.Write("Zum Beenden bitte die Return-Taste drücken");
             Console.ReadLine();
         }
+
+       
+        
+
+        }
     }
-}
+
     
 
