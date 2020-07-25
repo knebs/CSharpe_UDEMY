@@ -39,11 +39,11 @@ namespace Calculator
             string zweiterSummand = Console.ReadLine();
 
             //Wandel Text in Ganzzahlen um
-            float ersterSummandAlsZahl = Convert.ToSingle(ersterSummand);
-            float zweiterSummandAlsZahl = Convert.ToSingle(zweiterSummand);
+            int ersterSummandAlsZahl = Convert.ToInt32(ersterSummand);
+            int zweiterSummandAlsZahl = Convert.ToInt32(zweiterSummand);
 
             //Berechnung ausführen
-            float summe = ersterSummandAlsZahl + zweiterSummandAlsZahl;
+            int summe = ersterSummandAlsZahl + zweiterSummandAlsZahl;
 
             //Ausgabe
             Console.WriteLine("Die Summe ist " + summe);
