@@ -30,8 +30,15 @@ namespace Calculator
 
             //Ausgabe
             Console.WriteLine("Die Summe ist " + summe);
-            Console.ReadLine();
+            WarteAufBenutzereingabe();
 
+          
+
+        }
+        static void WarteAufBenutzereingabe()
+        {
+            Console.Write("Zum Beenden bitte die Return-Taste drücken");
+            Console.ReadLine();
         }
     }
 }
