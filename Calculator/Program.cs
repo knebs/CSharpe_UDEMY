@@ -14,6 +14,23 @@ namespace Calculator
             /// <summary>
             /// Das ist eine Zusammenfassung für die Klasse
             /// </summary>
+            ///  /// <summary>
+            /// Das ist eine Zusammenfassung für die Klasse
+            /// </summary>
+
+            /// <summary>
+            /// Das ist eine Zusammenfassung für die Klasse
+            /// </summary>
+
+            /// <summary>
+            /// Das ist eine Zusammenfassung für die Klasse
+            /// </summary>
+
+            /// <summary>
+            /// Das ist eine Zusammenfassung für die Klasse
+            /// </summary>
+
+
 
             //User Story: Als Benutzer möchte ich zwei Zahlen eingeben, um deren Summe zu berechnen.
             Console.Write("Bitte geben Sie den ersten Summanden ein: ");
