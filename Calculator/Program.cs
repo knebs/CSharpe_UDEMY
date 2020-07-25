@@ -14,23 +14,6 @@ namespace Calculator
             /// <summary>
             /// Das ist eine Zusammenfassung für die Klasse
             /// </summary>
-            ///  /// <summary>
-            /// Das ist eine Zusammenfassung für die Klasse
-            /// </summary>
-
-            /// <summary>
-            /// Das ist eine Zusammenfassung für die Klasse
-            /// </summary>
-
-            /// <summary>
-            /// Das ist eine Zusammenfassung für die Klasse
-            /// </summary>
-
-            /// <summary>
-            /// Das ist eine Zusammenfassung für die Klasse
-            /// </summary>
-
-
 
             //User Story: Als Benutzer möchte ich zwei Zahlen eingeben, um deren Summe zu berechnen.
             Console.Write("Bitte geben Sie den ersten Summanden ein: ");
@@ -39,11 +22,11 @@ namespace Calculator
             string zweiterSummand = Console.ReadLine();
 
             //Wandel Text in Ganzzahlen um
-            int ersterSummandAlsZahl = Convert.ToInt32(ersterSummand);
-            int zweiterSummandAlsZahl = Convert.ToInt32(zweiterSummand);
+            double ersterSummandAlsZahl = Convert.ToDouble(ersterSummand);
+            double zweiterSummandAlsZahl = Convert.ToDouble(zweiterSummand);
 
             //Berechnung ausführen
-            int summe = ersterSummandAlsZahl + zweiterSummandAlsZahl;
+            double summe = ersterSummandAlsZahl + zweiterSummandAlsZahl;
 
             //Ausgabe
             Console.WriteLine("Die Summe ist " + summe);
